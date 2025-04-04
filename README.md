@@ -18,8 +18,8 @@ Streamlit UI: Simple and interactive web-based interface.
 
 ## 🛠️ Installation
 Clone the repository:
-git clone https://github.com/your-repo/database-chatbot.git
-cd database-chatbot  
+git clone https://github.com/charurathour/Database_chatbot.git
+cd Database_chatbot  
 
 Install dependencies:
 pip install -r requirements.txt  
