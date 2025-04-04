@@ -33,7 +33,7 @@ def get_database_schema(host, user, password, database):
             cursor.execute(f"DESCRIBE {table}")
             schema += f"🔹 **{table}**\n"
             for row in cursor.fetchall():
-                schema += f"   - {row[0]} ({row[1]})\n"
+                schema += f"   - {row[0]} ({row[1]}) {row[3]}\n"
             schema += "\n"
 
         cursor.close()

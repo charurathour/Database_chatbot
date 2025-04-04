@@ -23,5 +23,6 @@ Generate only the SQL query without explanation and without ```sql```
 
     model = genai.GenerativeModel("gemini-1.5-pro-001")
     response = model.generate_content(prompt)
+    
 
     return response.text.strip()
