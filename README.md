@@ -18,32 +18,20 @@ Streamlit UI: Simple and interactive web-based interface.
 
 🛠️ Installation
 Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/your-repo/database-chatbot.git  
+git clone https://github.com/your-repo/database-chatbot.git
 cd database-chatbot  
-Install dependencies:
 
-bash
-Copy
-Edit
+Install dependencies:
 pip install -r requirements.txt  
+
 Set up environment variables:
 Create a .env file with:
-
-ini
-Copy
-Edit
 GEMINI_API_KEY=your_gemini_api_key  
+
 ▶️ Usage
 Run the chatbot:
-
-bash
-Copy
-Edit
 streamlit run app.py  
+
 Enter your MySQL database credentials (host, username, password).
 
 Select a database from the available list.
@@ -53,9 +41,6 @@ Ask a question in English, and the chatbot will generate and execute an SQL quer
 📌 Example
 User Input: "Show me all orders placed in the last 30 days."
 Generated SQL Query:
-
-sql
-Copy
-Edit
 SELECT * FROM orders WHERE order_date >= NOW() - INTERVAL 30 DAY;
+
 Displayed Output: Table of orders from the last 30 days.
