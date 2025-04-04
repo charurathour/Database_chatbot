@@ -25,11 +25,12 @@ Install dependencies:
 pip install -r requirements.txt  
 
 Set up environment variables:
-Create a .env file with:
+Create a .env file inised streamlit_app folder with:
 GEMINI_API_KEY=your_gemini_api_key  
 
 ## ▶️ Usage
 Run the chatbot:
+cd streamlit_app
 streamlit run app.py  
 
 Enter your MySQL database credentials (host, username, password).
