@@ -1,9 +1,9 @@
-🗄️ Database Chatbot – AI-Powered SQL Query Assistant (MySQL)
+# 🗄️ Database Chatbot – AI-Powered SQL Query Assistant (MySQL)
 
-🚀 Overview
+## 🚀 Overview
 Database Chatbot is an AI-powered tool that converts natural language questions into SQL queries and executes them on a MySQL database. It allows users to interact with their database easily using a conversational interface.
 
-🎯 Features
+##🎯 Features
 MySQL Support: Connects securely to any MySQL database.
 
 Schema Extraction: Automatically retrieves the database schema for better query generation.
@@ -16,7 +16,7 @@ User Authentication: Securely connects using user-provided credentials.
 
 Streamlit UI: Simple and interactive web-based interface.
 
-🛠️ Installation
+## 🛠️ Installation
 Clone the repository:
 git clone https://github.com/your-repo/database-chatbot.git
 cd database-chatbot  
@@ -28,7 +28,7 @@ Set up environment variables:
 Create a .env file with:
 GEMINI_API_KEY=your_gemini_api_key  
 
-▶️ Usage
+## ▶️ Usage
 Run the chatbot:
 streamlit run app.py  
 
@@ -38,7 +38,7 @@ Select a database from the available list.
 
 Ask a question in English, and the chatbot will generate and execute an SQL query.
 
-📌 Example
+## 📌 Example
 User Input: "Show me all orders placed in the last 30 days."
 Generated SQL Query:
 SELECT * FROM orders WHERE order_date >= NOW() - INTERVAL 30 DAY;
